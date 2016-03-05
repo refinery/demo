@@ -1,0 +1,359 @@
+GIT
+  remote: https://github.com/refinery/refinerycms
+  revision: 642dd34cd041f9f69826ad82e6357525ae74f996
+  branch: master
+  specs:
+    refinerycms (3.0.1)
+      refinerycms-core (= 3.0.1)
+      refinerycms-images (= 3.0.1)
+      refinerycms-pages (= 3.0.1)
+      refinerycms-resources (= 3.0.1)
+    refinerycms-core (3.0.1)
+      actionpack (>= 4.2.3, < 5.0)
+      activerecord (>= 4.2.3, < 5.0)
+      awesome_nested_set (~> 3.0.0)
+      coffee-rails (~> 4.0, >= 4.0.0)
+      decorators (~> 2.0.0)
+      font-awesome-sass (>= 4.3.0, < 5.0)
+      jquery-rails (>= 2.3.0)
+      jquery-ui-rails (~> 5.0.0)
+      railties (>= 4.2.3, < 5.0)
+      refinerycms-i18n (~> 3.0.0)
+      sass-rails (>= 4.0, < 5.1)
+      truncate_html (~> 0.9)
+      will_paginate (~> 3.0.2)
+      zilch-authorisation
+    refinerycms-images (3.0.1)
+      dragonfly (~> 1.0.0)
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-core (= 3.0.1)
+    refinerycms-pages (3.0.1)
+      awesome_nested_set (~> 3.0.0)
+      babosa (!= 0.3.6)
+      friendly_id (>= 5.1.0, < 5.3)
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-core (= 3.0.1)
+      seo_meta (~> 2.0.0.rc.1)
+      speakingurl-rails (~> 8.0.0)
+    refinerycms-resources (3.0.1)
+      acts_as_indexed (~> 0.8.0)
+      dragonfly (~> 1.0.0)
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-core (= 3.0.1)
+
+GIT
+  remote: https://github.com/refinery/refinerycms-blog
+  revision: 8d052c50e20da74a17b284225f69b5d4c1beb52e
+  branch: master
+  specs:
+    refinerycms-blog (3.0.0)
+      acts-as-taggable-on
+      filters_spam (~> 0.2)
+      friendly_id (~> 5.1.0)
+      globalize (>= 4.0.0, < 5.2)
+      jquery-ui-rails (~> 5.0.0)
+      rails_autolink (~> 1.1.3)
+      refinerycms-core (~> 3.0.0)
+      refinerycms-settings (~> 3.0.0)
+      seo_meta (~> 2.0.0.rc.1)
+
+GIT
+  remote: https://github.com/refinery/refinerycms-inquiries
+  revision: 774c7cbe6d87e11e72444c8c6539e70012c807fa
+  branch: master
+  specs:
+    refinerycms-inquiries (3.0.1)
+      actionmailer (~> 4.2.4)
+      filters_spam (~> 0.2)
+      refinerycms-core (~> 3.0.0)
+      refinerycms-settings (~> 3.0.0)
+
+GIT
+  remote: https://github.com/refinery/refinerycms-news
+  revision: 781c7fde3876cc5940d95cd1ca9d815446bcd0da
+  branch: master
+  specs:
+    refinerycms-news (3.0.0)
+      acts_as_indexed (~> 0.8.0)
+      friendly_id (~> 5.1.0)
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-core (~> 3.0.0)
+      refinerycms-settings (~> 3.0.0)
+
+GIT
+  remote: https://github.com/refinery/refinerycms-page-images
+  revision: 9b5f16e8266cb3c823c4d310ec3e733245258dde
+  branch: master
+  specs:
+    refinerycms-page-images (3.0.0)
+      decorators (~> 2.0.0)
+      globalize (~> 5.0)
+      refinerycms-pages (~> 3.0.0)
+
+GIT
+  remote: https://github.com/refinery/refinerycms-portfolio
+  revision: 86cf5c928c4d1d588cfe4b0922f47ec41058c33c
+  branch: master
+  specs:
+    refinerycms-portfolio (3.0.0)
+      friendly_id (~> 5.1.0)
+      friendly_id-globalize (>= 1.0.0.alpha2)
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-acts-as-indexed (~> 2.0.0)
+      refinerycms-core (~> 3.0.0)
+
+GIT
+  remote: https://github.com/refinery/refinerycms-search
+  revision: aa8098cd0c159b72174daa1e8195dd797773d948
+  branch: master
+  specs:
+    refinerycms-search (3.0.0)
+      refinerycms-acts-as-indexed (~> 2.0.1)
+      refinerycms-core (~> 3.0.0)
+
+GIT
+  remote: https://github.com/refinery/refinerycms-settings
+  revision: 10c12da53e0c6a793497c43f6cdd2f17a97e9632
+  branch: master
+  specs:
+    refinerycms-settings (3.0.0)
+      friendly_id (~> 5.0, >= 5.0.1)
+      refinerycms-core (~> 3.0, >= 3.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (4.2.5.2)
+      actionpack (= 4.2.5.2)
+      actionview (= 4.2.5.2)
+      activejob (= 4.2.5.2)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+    actionpack (4.2.5.2)
+      actionview (= 4.2.5.2)
+      activesupport (= 4.2.5.2)
+      rack (~> 1.6)
+      rack-test (~> 0.6.2)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview (4.2.5.2)
+      activesupport (= 4.2.5.2)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    activejob (4.2.5.2)
+      activesupport (= 4.2.5.2)
+      globalid (>= 0.3.0)
+    activemodel (4.2.5.2)
+      activesupport (= 4.2.5.2)
+      builder (~> 3.1)
+    activerecord (4.2.5.2)
+      activemodel (= 4.2.5.2)
+      activesupport (= 4.2.5.2)
+      arel (~> 6.0)
+    activesupport (4.2.5.2)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    acts-as-taggable-on (3.5.0)
+      activerecord (>= 3.2, < 5)
+    acts_as_indexed (0.8.3)
+    addressable (2.4.0)
+    arel (6.0.3)
+    awesome_nested_set (3.0.3)
+      activerecord (>= 4.0.0, < 5)
+    babosa (1.0.2)
+    bcrypt (3.1.10)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    builder (3.2.2)
+    byebug (8.2.2)
+    coffee-rails (4.1.1)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0, < 5.1.x)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.10.0)
+    concurrent-ruby (1.0.1)
+    debug_inspector (0.0.2)
+    decorators (2.0.1)
+      railties (>= 4.0.0, < 5.0.0)
+    devise (3.5.6)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      responders
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+    dragonfly (1.0.12)
+      addressable (~> 2.3)
+      multi_json (~> 1.0)
+      rack (>= 1.3.0)
+    erubis (2.7.0)
+    execjs (2.6.0)
+    filters_spam (0.5)
+    font-awesome-sass (4.5.0)
+      sass (>= 3.2)
+    friendly_id (5.1.0)
+      activerecord (>= 4.0.0)
+    friendly_id-globalize (1.0.0.alpha2)
+      friendly_id (~> 5.1.0, < 6.0)
+    globalid (0.3.6)
+      activesupport (>= 4.1.0)
+    globalize (5.0.1)
+      activemodel (>= 4.2.0, < 4.3)
+      activerecord (>= 4.2.0, < 4.3)
+    i18n (0.7.0)
+    jbuilder (2.4.1)
+      activesupport (>= 3.0.0, < 5.1)
+      multi_json (~> 1.2)
+    jquery-rails (4.1.0)
+      rails-dom-testing (~> 1.0)
+      railties (>= 4.2.0)
+      thor (>= 0.14, < 2.0)
+    jquery-ui-rails (5.0.5)
+      railties (>= 3.2.16)
+    json (1.8.3)
+    loofah (2.0.3)
+      nokogiri (>= 1.5.9)
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
+    mime-types (2.99.1)
+    mini_portile2 (2.0.0)
+    minitest (5.8.4)
+    multi_json (1.11.2)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    orm_adapter (0.5.0)
+    pg (0.18.4)
+    quiet_assets (1.1.0)
+      railties (>= 3.1, < 5.0)
+    rack (1.6.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rails (4.2.5.2)
+      actionmailer (= 4.2.5.2)
+      actionpack (= 4.2.5.2)
+      actionview (= 4.2.5.2)
+      activejob (= 4.2.5.2)
+      activemodel (= 4.2.5.2)
+      activerecord (= 4.2.5.2)
+      activesupport (= 4.2.5.2)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.2.5.2)
+      sprockets-rails
+    rails-deprecated_sanitizer (1.0.3)
+      activesupport (>= 4.2.0.alpha)
+    rails-dom-testing (1.0.7)
+      activesupport (>= 4.2.0.beta, < 5.0)
+      nokogiri (~> 1.6.0)
+      rails-deprecated_sanitizer (>= 1.0.1)
+    rails-html-sanitizer (1.0.3)
+      loofah (~> 2.0)
+    rails-i18n (4.0.8)
+      i18n (~> 0.7)
+      railties (~> 4.0)
+    rails_autolink (1.1.6)
+      rails (> 3.1)
+    railties (4.2.5.2)
+      actionpack (= 4.2.5.2)
+      activesupport (= 4.2.5.2)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rake (10.5.0)
+    rdoc (4.2.2)
+      json (~> 1.4)
+    refinerycms-acts-as-indexed (2.0.1)
+      acts_as_indexed (~> 0.8.0)
+      decorators (~> 2.0.0)
+      refinerycms-core (~> 3.0.0)
+    refinerycms-authentication-devise (1.0.4)
+      actionmailer (~> 4.2, >= 4.2.0)
+      devise (~> 3.0, >= 3.2.4)
+      friendly_id (~> 5.1.0)
+      refinerycms-core (~> 3.0, >= 3.0.0)
+    refinerycms-i18n (3.0.1)
+      rails-i18n (~> 4.0.1)
+      routing-filter (>= 0.4.0)
+    refinerycms-wymeditor (1.0.6)
+      refinerycms-core (~> 3.0, >= 3.0.0)
+    responders (2.1.1)
+      railties (>= 4.2.0, < 5.1)
+    routing-filter (0.5.1)
+      actionpack (~> 4.2)
+      activesupport (~> 4.2)
+    sass (3.4.21)
+    sass-rails (5.0.4)
+      railties (>= 4.0.0, < 5.0)
+      sass (~> 3.1)
+      sprockets (>= 2.8, < 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
+      tilt (>= 1.1, < 3)
+    sdoc (0.4.1)
+      json (~> 1.7, >= 1.7.7)
+      rdoc (~> 4.0)
+    seo_meta (2.0.0.rc.1)
+      railties (>= 3.0.0)
+    speakingurl-rails (8.0.2)
+      railties (>= 3.1)
+    spring (1.6.4)
+    sprockets (3.5.2)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    sprockets-rails (3.0.4)
+      actionpack (>= 4.0)
+      activesupport (>= 4.0)
+      sprockets (>= 3.0.0)
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    tilt (2.0.2)
+    truncate_html (0.9.3)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+    warden (1.2.6)
+      rack (>= 1.0)
+    web-console (2.3.0)
+      activemodel (>= 4.0)
+      binding_of_caller (>= 0.7.2)
+      railties (>= 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
+    will_paginate (3.0.7)
+    zilch-authorisation (0.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  coffee-rails (~> 4.1.0)
+  jbuilder (~> 2.0)
+  jquery-rails
+  pg (~> 0.15)
+  quiet_assets
+  rails (= 4.2.5.2)
+  refinerycms!
+  refinerycms-acts-as-indexed (~> 2.0, >= 2.0.0)
+  refinerycms-authentication-devise (>= 1.0.4)
+  refinerycms-blog!
+  refinerycms-inquiries!
+  refinerycms-news!
+  refinerycms-page-images!
+  refinerycms-portfolio!
+  refinerycms-search!
+  refinerycms-settings!
+  refinerycms-wymeditor (~> 1.0, >= 1.0.6)
+  sass-rails (~> 5.0)
+  sdoc (~> 0.4.0)
+  spring
+  uglifier (>= 1.3.0)
+  web-console (~> 2.0)
+
+BUNDLED WITH
+   1.11.2
