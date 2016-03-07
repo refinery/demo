@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: 642dd34cd041f9f69826ad82e6357525ae74f996
+  revision: b37cf424fcda13b5f9e257b59a723c73361d7d38
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -166,7 +166,7 @@ GEM
     awesome_nested_set (3.0.3)
       activerecord (>= 4.0.0, < 5)
     babosa (1.0.2)
-    bcrypt (3.1.10)
+    bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
@@ -227,7 +227,7 @@ GEM
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
     pg (0.18.4)
-    puma (3.0.2)
+    puma (3.1.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.4)
