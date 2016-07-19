@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5.2'
+gem 'rails', '~> 4.2.7'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
@@ -40,22 +40,22 @@ group :development do
 end
 
 
-gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
+gem 'refinerycms', "~> 3.0.4"
 
 gem 'quiet_assets', :group => :development
 
 # Add support for refinerycms-acts-as-indexed
-gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
+gem 'refinerycms-acts-as-indexed', ['~> 3.0', '>= 3.0.0']
 
 # Add support for refinerycms-wymeditor
 gem 'refinerycms-wymeditor', ['~> 1.0', '>= 1.0.6']
 
 gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', branch: 'master'
-gem 'refinerycms-inquiries', git: 'https://github.com/refinery/refinerycms-inquiries', branch: 'master'
+gem 'refinerycms-inquiries', "~> 3.0"
 gem 'refinerycms-news', git: 'https://github.com/refinery/refinerycms-news', branch: 'master'
 gem 'refinerycms-page-images', git: 'https://github.com/refinery/refinerycms-page-images', branch: 'master'
 gem 'refinerycms-portfolio', git: 'https://github.com/refinery/refinerycms-portfolio', branch: 'master'
-gem 'refinerycms-settings', git: 'https://github.com/refinery/refinerycms-settings', branch: 'master'
+gem 'refinerycms-settings', "~> 3.0"
 gem 'refinerycms-search', git: 'https://github.com/refinery/refinerycms-search', branch: 'master'
 gem 'refinerycms-authentication-devise', '>= 1.0.4'
 
