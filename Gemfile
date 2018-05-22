@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.7'
@@ -52,14 +52,12 @@ gem 'refinerycms-wymeditor', ['~> 1.0', '>= 1.0.6']
 
 gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', branch: 'master'
 gem 'refinerycms-inquiries', "~> 3.0"
-gem 'refinerycms-news', git: 'https://github.com/refinery/refinerycms-news', branch: 'master'
 gem 'refinerycms-page-images', git: 'https://github.com/refinery/refinerycms-page-images', branch: 'master'
 gem 'refinerycms-portfolio', git: 'https://github.com/refinery/refinerycms-portfolio', branch: 'master'
-gem 'refinerycms-settings', "~> 3.0"
 gem 'refinerycms-search', git: 'https://github.com/refinery/refinerycms-search', branch: 'master'
 gem 'refinerycms-authentication-devise', '>= 1.0.4'
 
 group :production do
   gem 'rails_12factor'
-  gem 'puma'
+  gem 'falcon'
 end
