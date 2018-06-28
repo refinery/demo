@@ -1,4 +1,17 @@
 GIT
+  remote: https://github.com/plataformatec/devise
+  revision: bddf051bfb4213114a3531708ccd68729c4ecef9
+  branch: 3-stable
+  specs:
+    devise (3.5.10)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      responders
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+
+GIT
   remote: https://github.com/refinery/refinerycms-portfolio
   revision: 305c52eaacb8a526bc77121a49205250e23434ed
   branch: master
@@ -94,13 +107,6 @@ GEM
     debug_inspector (0.0.3)
     decorators (2.0.4)
       railties (>= 4.0.0, < 6)
-    devise (3.5.10)
-      bcrypt (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 3.2.6, < 5)
-      responders
-      thread_safe (~> 0.1)
-      warden (~> 1.2.3)
     diffy (3.1.0)
     dragonfly (1.1.5)
       addressable (~> 2.3)
@@ -336,6 +342,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (>= 4.1.0)
+  devise!
   falcon
   jquery-rails
   pg (~> 0.15)

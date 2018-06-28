@@ -56,6 +56,7 @@ gem 'refinerycms-page-images', '~> 3.0'
 gem 'refinerycms-portfolio', git: 'https://github.com/refinery/refinerycms-portfolio', branch: 'master'
 gem 'refinerycms-search', git: 'https://github.com/refinery/refinerycms-search', branch: 'master'
 gem 'refinerycms-authentication-devise', '>= 1.0.4'
+gem 'devise', git: 'https://github.com/plataformatec/devise', branch: '3-stable'
 
 group :production do
   gem 'rails_12factor'
