@@ -11,7 +11,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '>= 4.1.0'
+gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -54,7 +54,7 @@ gem 'refinerycms-blog', '~> 3.0'
 gem 'refinerycms-inquiries', "~> 3.0"
 gem 'refinerycms-page-images', '~> 3.0'
 gem 'refinerycms-portfolio', git: 'https://github.com/refinery/refinerycms-portfolio', branch: 'master'
-gem 'refinerycms-search', git: 'https://github.com/refinery/refinerycms-search', branch: 'master'
+gem 'refinerycms-search', git: 'https://github.com/refinery/refinerycms-search', branch: '3-0-stable'
 gem 'refinerycms-authentication-devise', '>= 1.0.4'
 gem 'devise', git: 'https://github.com/plataformatec/devise', branch: '3-stable'
 
